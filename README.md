@@ -15,4 +15,4 @@ It is built using **ASP.NET Core** as a RESTful API and connects to an **SQL dat
 - **ADO.NET** 🔌
 - **Swagger (API Documentation)** 📄
 
-## 📂 Project Structure
+
