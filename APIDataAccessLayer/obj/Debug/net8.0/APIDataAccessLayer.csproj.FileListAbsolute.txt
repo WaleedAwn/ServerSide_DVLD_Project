@@ -1,0 +1,26 @@
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.AssemblyInfoInputs.cache
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.AssemblyInfo.cs
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIDataAccessLayer\bin\Debug\net8.0\APIDataAccessLayer.deps.json
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIDataAccessLayer\bin\Debug\net8.0\APIDataAccessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIDataAccessLayer\bin\Debug\net8.0\APIDataAccessLayer.pdb
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.csproj.AssemblyReference.cache
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\refint\APIDataAccessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.pdb
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\ref\APIDataAccessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.sourcelink.json
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIDataAccessLayer\bin\Debug\net8.0\APIDataAccessLayer.deps.json
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIDataAccessLayer\bin\Debug\net8.0\APIDataAccessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIDataAccessLayer\bin\Debug\net8.0\APIDataAccessLayer.pdb
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.csproj.AssemblyReference.cache
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.AssemblyInfoInputs.cache
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.AssemblyInfo.cs
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.sourcelink.json
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\refint\APIDataAccessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\APIDataAccessLayer.pdb
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIDataAccessLayer\obj\Debug\net8.0\ref\APIDataAccessLayer.dll

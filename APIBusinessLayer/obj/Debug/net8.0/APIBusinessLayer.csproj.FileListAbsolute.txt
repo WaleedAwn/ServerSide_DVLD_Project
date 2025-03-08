@@ -1,0 +1,32 @@
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\bin\Debug\net8.0\APIBusinessLayer.deps.json
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\bin\Debug\net8.0\APIBusinessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\bin\Debug\net8.0\APIBusinessLayer.pdb
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\bin\Debug\net8.0\APIDataAccessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\bin\Debug\net8.0\APIDataAccessLayer.pdb
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.csproj.AssemblyReference.cache
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.AssemblyInfoInputs.cache
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.AssemblyInfo.cs
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.csproj.CoreCompileInputs.cache
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusin.542E2772.Up2Date
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\refint\APIBusinessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.pdb
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\ref\APIBusinessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.sourcelink.json
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\bin\Debug\net8.0\APIBusinessLayer.deps.json
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\bin\Debug\net8.0\APIBusinessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\bin\Debug\net8.0\APIBusinessLayer.pdb
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\bin\Debug\net8.0\APIDataAccessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\bin\Debug\net8.0\APIDataAccessLayer.pdb
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.csproj.AssemblyReference.cache
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.AssemblyInfoInputs.cache
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.AssemblyInfo.cs
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.csproj.CoreCompileInputs.cache
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.sourcelink.json
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusin.542E2772.Up2Date
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\refint\APIBusinessLayer.dll
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\APIBusinessLayer.pdb
+D:\AbouHadhoud Courses\DVLD Project Course19 API\DVLD Project Copy\ServerSide_DVLD_Project\APIBusinessLayer\obj\Debug\net8.0\ref\APIBusinessLayer.dll

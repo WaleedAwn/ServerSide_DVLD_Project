@@ -68,7 +68,8 @@ namespace API_DVLD_Project.Controllers
 
             if (person == false)
             {
-                return false;
+                return NotFound(false);
+
             }
 
 
@@ -87,7 +88,7 @@ namespace API_DVLD_Project.Controllers
             if (newPersonDTO == null || string.IsNullOrEmpty(newPersonDTO.NationalNo)
                
                 || string.IsNullOrEmpty(newPersonDTO.FirstName)|| string.IsNullOrEmpty(newPersonDTO.SecondName)
-                || string.IsNullOrEmpty(newPersonDTO.ThirdName) || string.IsNullOrEmpty(newPersonDTO.LastName)
+             || string.IsNullOrEmpty(newPersonDTO.LastName)
                 || string.IsNullOrEmpty(newPersonDTO.DateOfBirth.ToString())
                || string.IsNullOrEmpty(newPersonDTO.Address) )
             {
@@ -129,7 +130,7 @@ namespace API_DVLD_Project.Controllers
             if (UpdatePersonDTO == null || PersonID<0 || string.IsNullOrEmpty(UpdatePersonDTO.NationalNo)
 
                 || string.IsNullOrEmpty(UpdatePersonDTO.FirstName) || string.IsNullOrEmpty(UpdatePersonDTO.SecondName)
-                || string.IsNullOrEmpty(UpdatePersonDTO.ThirdName) || string.IsNullOrEmpty(UpdatePersonDTO.LastName)
+         || string.IsNullOrEmpty(UpdatePersonDTO.LastName)
                 || string.IsNullOrEmpty(UpdatePersonDTO.DateOfBirth.ToString())
                || string.IsNullOrEmpty(UpdatePersonDTO.Address))
             {
@@ -182,6 +183,9 @@ namespace API_DVLD_Project.Controllers
 
 
         }
+
+
+
 
         [HttpGet("Find/{NationalNo}", Name = "GetPersonByNationalNo")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -254,16 +258,3 @@ namespace API_DVLD_Project.Controllers
 
 }
 
-//"personID": 0,
-//  "nationalNo": "AWA",
-//  "firstName": "sdf",
-//  "secondName": "fdg",
-//  "thirdName": "fgh",
-//  "lastName": "fgh",
-//  "dateOfBirth": "2024-11-12",
-//  "gendor": 1,
-//  "address": "fdghfgh",
-//  "phone": "fhgg",
-//  "email": "WA@gmail.com",
-//  "nationalityCountryID": 90,
-//  "imagePath": ""

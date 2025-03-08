@@ -84,7 +84,7 @@ namespace APIBusinessLayer.People
         }
         private bool _UpdatePerson()
         {
-            return PersonsData.UpdatePerson(SDTO); // Fixed: UpdatePerson instead of UpdateStudent
+            return PersonsData.UpdatePerson(SDTO); 
         }
         public bool Save()
         {
@@ -100,6 +100,7 @@ namespace APIBusinessLayer.People
                 case enMode.Update:
                     return _UpdatePerson();
             }
+            
             return false;
         }
 
