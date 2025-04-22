@@ -11,8 +11,7 @@ namespace APIBusinessLayer.ApplicationTypes
 {
     public class ApplicationTypes
     {
-        public int     ApplicationTypeID     { get; set; }
-
+        public int  ApplicationTypeID     { get; set; }
         public string  ApplicationTypeTitle { get; set; }
         public decimal ApplicationFees       { get; set; }
         public enum enMode { AddNew = 0, Update = 1 };

@@ -5,7 +5,8 @@ using System.Linq;
 using System.Numerics;
 using System.Reflection.PortableExecutable;
 using System.Text;
-using System.Threading.Tasks; 
+using System.Threading.Tasks;
+using APIDataAccessLayer.Globals;
 using Microsoft.Data.SqlClient;
 
 namespace APIDataAccessLayer.People
@@ -30,14 +31,14 @@ namespace APIDataAccessLayer.People
                         while (reader.Read())
                         {
                             // Use GetOrdinal to get the index for the ImagePath column
-                            int ThirdNamePathIndex = reader.GetOrdinal("ThirdName");
-                            string thirdName = reader.IsDBNull(ThirdNamePathIndex) ? "" : reader.GetString(ThirdNamePathIndex);
+                            //int ThirdNamePathIndex = reader.GetOrdinal("ThirdName");
+                            //string thirdName = reader.IsDBNull(ThirdNamePathIndex) ? "" : reader.GetString(ThirdNamePathIndex);
 
-                            int emailPathIndex = reader.GetOrdinal("Email");
-                            string Email = reader.IsDBNull(emailPathIndex) ? "" : reader.GetString(emailPathIndex);
+                            //int emailPathIndex = reader.GetOrdinal("Email");
+                            //string Email = reader.IsDBNull(emailPathIndex) ? "" : reader.GetString(emailPathIndex);
 
-                            int imagePathIndex = reader.GetOrdinal("ImagePath");
-                            string imagepath = reader.IsDBNull(imagePathIndex) ? "" : reader.GetString(imagePathIndex);
+                            //int imagePathIndex = reader.GetOrdinal("ImagePath");
+                            //string imagepath = reader.IsDBNull(imagePathIndex) ? "" : reader.GetString(imagePathIndex);
 
 
                             PersonsList.Add(new PersonsDTO
@@ -47,16 +48,18 @@ namespace APIDataAccessLayer.People
                                 reader.GetString(reader.GetOrdinal("FirstName")),
                                 reader.GetString(reader.GetOrdinal("SecondName")),
                                 //reader.GetString(reader.GetOrdinal("ThirdName")),
-                                thirdName,                 
+                                GlobalParameter.GetParameterValue("ThirdName",reader),              
                                 reader.GetString(reader.GetOrdinal("LastName")),
                                 reader.GetDateTime(reader.GetOrdinal("DateOfBirth")),
                                 reader.GetByte(reader.GetOrdinal("Gendor")),
                                 reader.GetString(reader.GetOrdinal("Address")),
                                 reader.GetString(reader.GetOrdinal("Phone")),
                             //reader.GetString(reader.GetOrdinal("Email")),
-                                 Email,
+                              GlobalParameter.GetParameterValue("Email", reader),
+
                             reader.GetInt32(reader.GetOrdinal("NationalityCountryID")),
-                                imagepath // Use the processed imagepath variable
+                            GlobalParameter.GetParameterValue("ImagePath", reader)
+
                             ));
                         }
                     }

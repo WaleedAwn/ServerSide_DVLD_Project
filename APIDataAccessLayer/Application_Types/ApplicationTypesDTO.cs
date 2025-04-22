@@ -8,17 +8,13 @@ namespace APIDataAccessLayer.Application_Types
 {
     public class ApplicationTypesDTO
     {
-
-   
-        public int  ApplicationTypeID {  get; set; }   
-
+        public int ApplicationTypeID { get; set; }
         public string ApplicationTypeTitle { get; set; }
         public decimal ApplicationFees { get; set; }
         public ApplicationTypesDTO()
         {
             
         }
-
         public ApplicationTypesDTO( int id , string title,decimal fees)
         {
             this.ApplicationTypeID = id;

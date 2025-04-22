@@ -1,5 +1,256 @@
 [
   {
+    "ContainingType": "API_DVLD_Project.Controllers.ApplicationController",
+    "Method": "AddNewApplication",
+    "RelativePath": "api/Application/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newApplicationDTO",
+        "Type": "APIDataAccessLayer.Applications.DTOs.ApplicationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIDataAccessLayer.Applications.DTOs.ApplicationDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "AddApplication"
+  },
+  {
+    "ContainingType": "API_DVLD_Project.Controllers.ApplicationController",
+    "Method": "GetAllApplications",
+    "RelativePath": "api/Application/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIDataAccessLayer.Applications.DTOs.ApplicationDetailsDTO, APIDataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetAllApplications"
+  },
+  {
+    "ContainingType": "API_DVLD_Project.Controllers.ApplicationController",
+    "Method": "GetApplicationByID",
+    "RelativePath": "api/Application/FindByID/{ApplicationID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApplicationID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIDataAccessLayer.Applications.DTOs.ApplicationDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetApplicationByID"
+  },
+  {
+    "ContainingType": "API_DVLD_Project.Controllers.ApplicationController",
+    "Method": "FindApplicationDetailsByID",
+    "RelativePath": "api/Application/FindDetailsByID/{ApplicationID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApplicationID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIDataAccessLayer.Applications.DTOs.ApplicationDetailsDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "FindApplicationDetailsByID"
+  },
+  {
+    "ContainingType": "API_DVLD_Project.Controllers.ApplicationController",
+    "Method": "IsApplicationExist",
+    "RelativePath": "api/Application/IsExist/{ApplicationID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApplicationID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "IsApplicationExist"
+  },
+  {
+    "ContainingType": "API_DVLD_Project.Controllers.ApplicationController",
+    "Method": "UpdateApplication",
+    "RelativePath": "api/Application/Update/{ApplicationID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApplicationID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UpdateApplication",
+        "Type": "APIDataAccessLayer.Applications.DTOs.ApplicationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIDataAccessLayer.Applications.DTOs.ApplicationDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "UpdateApplication"
+  },
+  {
     "ContainingType": "API_DVLD_Project.Controllers.ApplicationTypesController",
     "Method": "GetAllApplicationTypes",
     "RelativePath": "api/ApplicationTypes/All",
@@ -140,7 +391,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "APIBusinessLayer.ApplicationTypes.ApplicationTypes",
+        "Type": "APIDataAccessLayer.Application_Types.ApplicationTypesDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -770,6 +1021,176 @@
       }
     ],
     "EndpointName": "UpdatePerson"
+  },
+  {
+    "ContainingType": "API_DVLD_Project.Controllers.TestTypesController",
+    "Method": "GetAllTestTypes",
+    "RelativePath": "api/TestTypes/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIDataAccessLayer.TestTypes.TestTypesDTO, APIDataAccessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetAllTestTypes"
+  },
+  {
+    "ContainingType": "API_DVLD_Project.Controllers.TestTypesController",
+    "Method": "GetTestTypeByID",
+    "RelativePath": "api/TestTypes/FindByID/{TestTypeID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TestTypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIDataAccessLayer.TestTypes.TestTypesDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "GetTestTypeByID"
+  },
+  {
+    "ContainingType": "API_DVLD_Project.Controllers.TestTypesController",
+    "Method": "IsTestTypeExist",
+    "RelativePath": "api/TestTypes/IsExist/{TestTypeID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TestTypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "IsTestTypeExist"
+  },
+  {
+    "ContainingType": "API_DVLD_Project.Controllers.TestTypesController",
+    "Method": "UpdateTestType",
+    "RelativePath": "api/TestTypes/Update/{TestTypeID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TestTypeID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "UpdateTestType",
+        "Type": "APIDataAccessLayer.TestTypes.TestTypesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIDataAccessLayer.TestTypes.TestTypesDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ],
+    "EndpointName": "UpdateTestType"
   },
   {
     "ContainingType": "API_DVLD_Project.Controllers.UsersController",
