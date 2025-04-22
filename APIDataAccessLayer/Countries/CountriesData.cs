@@ -200,6 +200,8 @@ namespace APIDataAccessLayer.Countries
 
             return rowsAffected > 0;
         }
+      
+        
         public static bool IsCountryExist(int CountryId)
         {
             using (var connection = new SqlConnection(ConnectionClass.ConnectionString))

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "API_DVLD_Project\\API_DVLD_Project.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\ClientSideDVLDProject\\MainDVLD\\MainDVLD.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,4 +1,5 @@
-﻿using APIDataAccessLayer.Users;
+﻿using APIDataAccessLayer.TestTypes;
+using APIDataAccessLayer.Users;
 using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
@@ -95,10 +96,15 @@ namespace APIDataAccessLayer.Application_Types
                                  reader.GetDecimal(reader.GetOrdinal("ApplicationFees"))
 
                              );
+                       
+                        
                         }
 
                         else { return null; }
                     }
+               
+                
+                
                 }
 
 
@@ -146,7 +152,7 @@ namespace APIDataAccessLayer.Application_Types
 
 
     }
-   
+
 
 
 
