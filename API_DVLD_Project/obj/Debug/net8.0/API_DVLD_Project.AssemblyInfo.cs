@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_DVLD_Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3f6bf800659c06e7621070cebeb9091bff1298a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef1dcd6caeef10becd2a6f3a2042a402c8ad7928")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_DVLD_Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_DVLD_Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
